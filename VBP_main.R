@@ -46,7 +46,7 @@ polygon(den, col="red", border="blue")
 
 ##### Improvement model
 final_improvement <- final_data
-CP <- 390267
+CP <- 10001
 old_TPS <- final_data$`Total Performance Score`[final_data$Provider_ID == CP] 
 trend_a <- 44.673
 trend_b <- -0.03
